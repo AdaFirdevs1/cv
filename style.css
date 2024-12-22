@@ -1,0 +1,147 @@
+.mainbox{
+    width: 800px;
+    height: 1300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.7), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    margin: auto;
+}
+
+.box1{
+    width: 30%;
+    background-color: #dad8d8;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    float: left;
+}
+.picture{
+    width: 100%;    
+    border-radius: 5px;
+}
+.p_about{
+    text-indent: 25px;
+}
+.box2{
+    width: 60%;
+    height: auto;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 5px;    
+    float: right;
+}
+.box2 h3{
+    margin-bottom: -7px;
+}
+.name{
+    font-size: 50px;
+}
+.box1 h3{
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: -7px;
+}
+.box2 h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.intern li{
+    list-style-type: none;
+}
+.intern h4{
+    margin-bottom: 1px;
+}
+.intern ul{
+    margin-top: 2px;
+}
+
+.lists{
+    list-style-type: none;
+}
+footer{
+    display: flex;
+    width: 100%;
+    margin-top: 2px;
+}
+.footsec1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: #dad8d8;    
+    padding: 40px;
+    box-sizing: border-box; 
+    color: white;
+    padding-top: 35px;
+}
+.footsec1 h3{
+    margin-top: 2px;
+    color: black;
+    margin-left: 100px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-top: 2px;
+}
+.menu li{
+    margin-right: 15px;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.footsec2{
+    text-align: center;
+    color: black;
+    background-color: #dad8d8;
+    width: 50%;
+    padding-top: 35px;
+}
+@media screen and (max-width: 1200px) {
+    .mainbox{
+        display: block;    
+        width: 100%;
+    }
+    footer{
+        display: block;
+    }
+    .footsec1{
+        width: 100%;        
+    }
+    .footsec2{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer{
+        width: 100%;
+    }
+    .footsec1 h3{
+        margin-top: 2px;
+        
+    }
+    .menu{        
+        
+        margin-top: 10px;
+        width: 100%;
+    }
+    .menu li{
+        margin-bottom: 20px;
+    }
+    .menu li a{
+        width: 100%;
+        text-align: center;
+    }
+}
