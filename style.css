@@ -179,11 +179,15 @@ footer{
     .footsec1{
         width: 100%;
         font-size: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     
     .footsec2{
         width: 100%;
         font-size: 20px;
+        text-align: center;
     }
     
 }
@@ -229,11 +233,16 @@ footer{
     .footsec1{
         width: 100%;
         font-size: 13px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
     }
     
     .footsec2{
         width: 100%;
         font-size: 15px;
+        text-align: center;
     }
     
 }
