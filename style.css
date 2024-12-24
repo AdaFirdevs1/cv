@@ -64,7 +64,7 @@
 footer{
     display: flex;
     width: 100%;
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 
@@ -112,11 +112,10 @@ footer{
     padding-top: 35px;
 }
 
+/* Responsive */
 
 @media screen and (max-width: 1200px) {
-    body{
-        display: flex;
-    }
+    
     .mainbox {
         width: 90%;
         padding: 10px;
@@ -125,6 +124,7 @@ footer{
         box-sizing: border-box;
         border: none;
         box-shadow: none;
+        height: auto;
     }
     .box1, .box2 {
         width: 100%;
@@ -133,23 +133,29 @@ footer{
     }
     .box2 {
         margin-left: 0;
-    }
-    footer{
-        display: none;        
-    }
-    .footsec1{
-        width: 100%;
-        height: 5px;
-    }
-    .footsec2{
-        width: 100%;
-        height: 20px;
-    }
+    }       
     .picture{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 40%
+    }
+    footer{
+        display: block;
+    }
+    .footsec1{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    .footsec2{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 20px;
     }
     
 }
@@ -157,7 +163,8 @@ footer{
 @media screen and (max-width: 800px) {
     .mainbox {
         box-shadow: none;
-        border: none;        
+        border: none;     
+        height: auto;   
     }
     .box1, .box2 {
         padding: 10px;
@@ -165,26 +172,18 @@ footer{
     .name {
         font-size: 35px;
     }
-    .footsec1 h3 {
-        margin-left: 50px;
-        text-align: center;
+    footer{
+        display: block;   
+               
     }
-    .menu {
-        
-        align-items: center;
-        margin-top: 20px;
-    }
-    .menu li {
-        margin-bottom: 15px;
+    .footsec1{
+        width: 100%;
+        font-size: 15px;
     }
     
-    .footsec2 {
-        padding-top: 20px;
-        font-size: 14px;
-    }
-    footer{
-        display: none;   
-               
+    .footsec2{
+        width: 100%;
+        font-size: 20px;
     }
     
 }
@@ -192,6 +191,7 @@ footer{
 @media screen and (max-width: 480px) {
     .mainbox {
         padding: 5px;
+        height: auto;
     }
     .picture {
         width: 80%;
@@ -209,12 +209,6 @@ footer{
         list-style-type: none;
         margin-left: -35px;
     }
-    .menu li a {
-        font-size: 14px;
-    }
-    footer{
-        display: none;        
-    }
     .picture{
         display: block;
         margin-left: auto;
@@ -228,6 +222,18 @@ footer{
     .lists{
         list-style-type: none;
         margin-left: -35px;
+    }
+    footer{
+        display: block;        
+    }
+    .footsec1{
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    .footsec2{
+        width: 100%;
+        font-size: 15px;
     }
     
 }
