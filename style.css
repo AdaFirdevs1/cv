@@ -1,6 +1,41 @@
+.language-selector {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    right: 20px;
+}
+
+.language-selector a {
+    text-decoration: none;
+    color: #737374; 
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.language-selector a:hover {
+    color: black;
+    background-color: #dad8d8; 
+    border-color: #dad8d8;
+}
+
+
+.language-selector {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f9f9f9; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
 .mainbox{
     width: 800px;
-    height: 1300px;
+    height: 1400px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
